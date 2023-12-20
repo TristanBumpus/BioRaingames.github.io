@@ -1,5 +1,7 @@
 <html>
 <head>
+    <title>BioRain games</title>
+    <link rel="icon" type="image/x-icon" href="./Images/Main/BioRain.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * {
@@ -8,10 +10,6 @@
         .container {
             display: flex;
             align-items: center;
-        }
-        img {
-            max-width: 20%;
-            max-height: 20%;
             align-self: left;
         }
         .text {
@@ -27,12 +25,20 @@
             display: flex;
         }
         .column {
-            flex: 33.33%;
+            flex: 100%;
             padding: 5px;
+        }
+        h2 {
+            font-size: 60px;
+        }
+        h3 {
+            font-size: 30px;
         }
     </style>
     <div class="container">
-        <img style="width: 10%; height: 10%;" src = "./Images/Main/BioRain.png" alt="T">
+        <a href="./index.html">
+        <img src = "./Images/Main/BioRain.png" alt="T">
+        </a>
         <center>
             <h1 class="text">BioRain Games</h1>
         </center>
@@ -44,7 +50,7 @@
 <body>
     <center>
         <h2>Intro</h2>
-        <p1>Hey there! I'm Tristan, a one-person powerhouse in the indie game development scene. Armed with pixels, passion, and a sprinkle of sleepless nights, I craft digital adventures that resonate. Join me on this solo journey where imagination meets code, bringing unique games to life, one line at a time.</p1>
+        <p1 style="font-size: 40px;">Hey there! I'm Tristan, a one-person powerhouse in the indie game development scene. Armed with pixels, passion, and a sprinkle of sleepless nights, I craft digital adventures that resonate. Join me on this solo journey where imagination meets code, bringing unique games to life, one line at a time.</p1>
 
         <h3>My games</h3>
     </center>
@@ -52,26 +58,32 @@
     <div class="row">
         <div class="column">
             <figure>
-                <img src="./Images/Main/ABG.png" alt="" style="width: 100%;">
-                <figcaption>A bug's Garden</figcaption>
+                <a href="./ABG/ABG.html">
+                    <img src="./Images/Main/ABG.png" alt="" style="width: 100%;">
+                </a>
+                <figcaption style="font-size: 30px;">A bug's Garden</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <a href="./GCHYN/GCHYN.html">
+                <img src="./Images/Main/GCHYN.png" alt="" style="width: 100%;">
+                </a>
+                <figcaption style="font-size: 30px;">God can't help you now</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <a href="./JMS/JMS.html">
+                <img src="./Images/Main/JMS.png" alt="" style="width: 100%;">
+                </a>
+                <figcaption style="font-size: 30px;">Jump man simulator</figcaption>
             </figure>
         </div>
         <div class="column">
             <figure>
                 <img src="./Images/Main/BODConceptart.png" alt="" style="width: 100%;">
-                <figcaption>Balls of the Duck</figcaption>
-            </figure>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="./Images/Main/BODConceptart.png" alt="" style="width: 100%;">
-                <figcaption>Balls of the Duck</figcaption>
-            </figure>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="./Images/Main/BODConceptart.png" alt="" style="width: 100%;">
-                <figcaption>Balls of the Duck</figcaption>
+                <figcaption style="font-size: 30px;">Balls of the Duck</figcaption>
             </figure>
         </div>
     </div>
