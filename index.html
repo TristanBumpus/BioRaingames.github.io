@@ -1,10 +1,13 @@
+<html>
 <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        * {
+            box-sizing: border-box;
+        }
         .container {
             display: flex;
             align-items: center;
-
         }
         img {
             max-width: 20%;
@@ -12,15 +15,24 @@
             align-self: left;
         }
         .text {
-            font-size: 20px;
+            font-size: 40px;
             padding-left: 20px;
         }
-        h1 {size: 00px;}
-        h2 {size: 20px;}
+        body {
+            background-image: url(./Images/Main/BackroundMain.png);
+            background-size: 100%;
+            background-repeat: repeat-y;
+        }
+        .row {
+            display: flex;
+        }
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
     </style>
     <div class="container">
-        <img style="width: 20%; height: 20%;" src = "./Images/Main/BioRain.png" alt="T">
-
+        <img style="width: 10%; height: 10%;" src = "./Images/Main/BioRain.png" alt="T">
         <center>
             <h1 class="text">BioRain Games</h1>
         </center>
@@ -31,6 +43,37 @@
 
 <body>
     <center>
-        <h2>Hello world</h1>
+        <h2>Intro</h2>
+        <p1>Hey there! I'm Tristan, a one-person powerhouse in the indie game development scene. Armed with pixels, passion, and a sprinkle of sleepless nights, I craft digital adventures that resonate. Join me on this solo journey where imagination meets code, bringing unique games to life, one line at a time.</p1>
+
+        <h3>My games</h3>
     </center>
+    
+    <div class="row">
+        <div class="column">
+            <figure>
+                <img src="./Images/Main/ABG.png" alt="" style="width: 100%;">
+                <figcaption>A bug's Garden</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <img src="./Images/Main/BODConceptart.png" alt="" style="width: 100%;">
+                <figcaption>Balls of the Duck</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <img src="./Images/Main/BODConceptart.png" alt="" style="width: 100%;">
+                <figcaption>Balls of the Duck</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <img src="./Images/Main/BODConceptart.png" alt="" style="width: 100%;">
+                <figcaption>Balls of the Duck</figcaption>
+            </figure>
+        </div>
+    </div>
 </body>
+</html>
