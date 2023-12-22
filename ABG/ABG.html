@@ -8,9 +8,13 @@
                 box-sizing: border-box;
             }
             .container {
+                background-color: rgba(17, 78, 6, 90%);
                 display: flex;
                 align-items: center;
                 align-self: left;
+                position: sticky;
+                top: 0;
+                z-index: 999;
             }
             .container :hover {
                 display: block;
@@ -27,12 +31,12 @@
                 background-size: 100%;
                 background-repeat: repeat-y;
             }
-            .row {
-                display: flex;
-            }
             .column {
-                flex: 100%;
-                padding: 5px;
+            display: table;
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            transform: scale(1);
             }
             h1 {
                 font-size: 60px;
@@ -48,7 +52,7 @@
         </style>
         <div class="container">
             <a href="../index.html">
-                <img style="width: 120%; height: 120%;" src = "../Images/Main/BioRain.png" alt="T">
+                <img style="width: 120%; height: 120%; border-radius: 1rem;" src = "../Images/Main/BioRain.png" alt="T">
             </a>
             <center>
                 <h1 class="text">BioRain Games</h1>
@@ -65,8 +69,9 @@
     <center>
         <h1>A Bug's Garden</h1>
         <p style="font-size: 30px;">This is a game all about building a city for bugs to live in.</p>
-        
         <iframe frameborder="0" src="https://itch.io/embed/2127291?bg_color=258132&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=39c320" width="552" height="167"><a href="https://biorain-games.itch.io/plantopia">A Bug's Garden by BioRain Games</a></iframe>
+        
+        
     </center>
     
 </body>
