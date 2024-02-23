@@ -1,9 +1,12 @@
 <html>
     <head>
-        <title>A Bug's garden</title>
+        <title>A Charming Darkness</title>
         <link rel="icon" type="image/x-icon" href="../Images/Main/BioRain.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
+            img {
+                border-radius: 1rem;
+            }
             * {
                 box-sizing: border-box;
             }
@@ -25,6 +28,7 @@
             .text {
                 font-size: 40px;
                 padding-left: 20px;
+                color: lightgreen;
             }
             body {
                 background-image: url(../Images/Main/BackroundMain.png);
@@ -32,13 +36,21 @@
                 background-repeat: repeat-y;
             }
             .column {
-            display: table;
-            float: left;
-            width: 33.33%;
-            padding: 5px;
-            transform: scale(1);
+                display: table;
+                float: left;
+                width: 25%;
+                padding: 5px;
+                transform: scale(1);
             }
-            h1 {
+            .column :hover{
+                border-radius: 1rem;            
+                display: block;
+                box-shadow: 0px 0px 5px 5px green;
+                z-index: 2;
+                transition: all 200ms ease-in;
+                transform: scale(1.02) translateY(-10px);
+            }
+            h2{
                 font-size: 60px;
                 color: white;
             }
@@ -46,34 +58,31 @@
                 font-size: 30px;
                 color: white;
             }
-            p{
+            figure{
                 color: white;
+            }
+            p{
+                color:white
             }
         </style>
         <div class="container">
             <a href="../index.html">
-                <img style="width: 120%; height: 120%; border-radius: 1rem;" src = "../Images/Main/BioRain.png" alt="T">
+            <img draggable="false" src = "../Images/Main/BioRain.png" alt="T">
             </a>
             <center>
                 <h1 class="text">BioRain Games</h1>
             </center>
         </div>
     
-    </head>
-
-<body>
-    <center>
-        <h1>A Bug's Garden</h1>
-        <p style="font-size: 35px;">Made in 5 days for the Regenerate game jam</p>
-        <p style="font-size: 30px;">It's a city builder using plants as buildings and bugs as people. It has a happiness system that all your dicission will effect it. There is weather which will change season. Each season changes the art and will effect happiness and the chance that your plants light on fire</p>
-        <iframe frameborder="0" src="https://itch.io/embed/2127291?bg_color=258132&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=39c320" width="552" height="167"><a href="https://biorain-games.itch.io/plantopia">A Bug's Garden by BioRain Games</a></iframe>
-        
-        
-    </center>
-    <div class="column">
-        <img draggable="false" src="../Images/Main/ABG.png" alt="">
-    </div>
     
-</body>
-
+    </head>
+    <body>
+        <center>
+            <h1>A Charming Darkness</h1>
+            <p style="font-size: 35px" >Made in 3 days for the Winter melon jam</p>
+            <p style="font-size: 30px" >Explore a world of darkness filled with enemies and complexe parcour.</p>
+            <iframe frameborder="0" src="https://itch.io/embed/2442569?bg_color=000000&amp;fg_color=ffffff&amp;link_color=860c0c&amp;border_color=c52929" width="552" height="167"><a href="https://biorain-games.itch.io/a-charming-darkness">A Charming Darkness by BioRain Games, Sacha</a></iframe>
+            <p style="font-size: 30px" >Made by Me and Sacha Jubinville</p>
+        </center>
+    </body>
 </html>
