@@ -1,74 +1,98 @@
-<html>
-    <head>
-        <title>God can't help you now</title>
-        <link rel="icon" type="image/x-icon" href="../Images/Main/BioRain.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-           img {
-                border-radius: 1rem;
-            }
-            * {
-                box-sizing: border-box;
-            }
-            .container {
-                background-color: rgba(17, 78, 6, 90%);
-                display: flex;
-                align-items: center;
-                align-self: left;
-                position: sticky;
-                top: 0;
-                z-index: 999;
-            }
-        .container :hover {
-            display: block;
-            transform: scale(1.2);
-            align-items: center;
-            align-self: left;
-        }
-            .text {
-                font-size: 40px;
-                padding-left: 20px;
-            }
-            body {
-                background-image: url(../Images/Main/BackroundMain.png);
-                background-size: 100%;
-                background-repeat: repeat-y;
-            }
-            .row {
-                display: flex;
-            }
-            .column {
-                flex: 100%;
-                padding: 5px;
-            }
-            h1 {
-            font-size: 60px;
-            color: white;
-        }
-            h3 {
-                font-size: 30px;
-                color: white;
-            }
-            p{
-                color: white;
-            }
-        </style>
-        <div class="container">
-            <a href="../index.html">
-            <img src = "../Images/Main/BioRain.png" alt="T">
-            </a>
-            <center>
-                <h1 class="text">BioRain Games</h1>
-            </center>
-        </div>
-    
-    
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-image: url(../Images/Main/BackroundMain.png);
+        background-size: 100%;
+        background-repeat: repeat-y;
+      }
+      h1 {
+        text-align: center;
+        font-size: 64px;
+        color: aliceblue;
+      }
+      h2 {
+        text-align: center;
+        font-size: 32px;
+        color: aliceblue;
+      }
+      p {
+        text-align: center;
+        font-size: 32px;
+        color: lightgray;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+      }
+      .Scalable:hover {
+        transition: all 200ms ease-in;
+        display: inline-block;
+        transform: scale(1.1);
+        align-items: center;
+        padding: 50%;
+      }
+      .hoverable {
+        border-radius: 4rem;
+        width: 200px;
+        height: auto;
+      }
+      .hoverable:hover {
+        transition: all 200ms ease-in;
+        align-items: center;
+        transform: scale(1.1) translateY(-15px);
+      }
+      .Item {
+        align-content: center;
+        vertical-align: top;
+        align-self: center;
+        display: inline-block;
+        text-align: center;
+        width: 240px;
+      }
+      img {
+        padding: 20px;
+        border-radius: 2rem;
+      }
+      figcaption {
+        display: block;
+        color: aliceblue;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <title>God can't help you now</title>
+    <div class="container">
+      <a href="../index.html">
+        <img
+          style="padding: 10px"
+          class="Scalable"
+          src="../Images/Main/BioRain.png"
+          alt="T"
+        />
+      </a>
+      <h2 style="padding-left: 20px">BioRain Games</h2>
+    </div>
+
+    <h1>God can't help you now</h1>
+
     <center>
-        <h1>God can't help you now</h1>
-        <p style="font-size: 30px;">Your stuck in a lab in with monsters, find clues to help you out and escape with your life</p>
-        <iframe frameborder="0" src="https://itch.io/embed/2115010?bg_color=141414&amp;fg_color=ffffff&amp;link_color=830000&amp;border_color=484848" width="552" height="167"><a href="https://biorain-games.itch.io/the-lab">God can't help you now by BioRain Games</a></iframe>
+      <iframe
+        frameborder="0"
+        src="https://itch.io/embed/2115010?linkback=true&amp;bg_color=141414&amp;fg_color=ffffff&amp;link_color=830000&amp;border_color=484848"
+        width="552"
+        height="167"
+        ><a href="https://biorain-games.itch.io/the-lab"
+          >God can't help you now by BioRain Games</a
+        ></iframe
+      >
+      >
     </center>
-    </body>
+  </body>
 </html>

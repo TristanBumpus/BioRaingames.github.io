@@ -1,79 +1,97 @@
-<html>
-    <head>
-        <title>A Bug's garden</title>
-        <link rel="icon" type="image/x-icon" href="../Images/Main/BioRain.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            * {
-                box-sizing: border-box;
-            }
-            .container {
-                background-color: rgba(17, 78, 6, 90%);
-                display: flex;
-                align-items: center;
-                align-self: left;
-                position: sticky;
-                top: 0;
-                z-index: 999;
-            }
-            .container :hover {
-                display: block;
-                transform: scale(1.2);
-                align-items: center;
-                align-self: left;
-            }
-            .text {
-                font-size: 40px;
-                padding-left: 20px;
-            }
-            body {
-                background-image: url(../Images/Main/BackroundMain.png);
-                background-size: 100%;
-                background-repeat: repeat-y;
-            }
-            .column {
-            display: table;
-            float: left;
-            width: 33.33%;
-            padding: 5px;
-            transform: scale(1);
-            }
-            h1 {
-                font-size: 60px;
-                color: white;
-            }
-            h3 {
-                font-size: 30px;
-                color: white;
-            }
-            p{
-                color: white;
-            }
-        </style>
-        <div class="container">
-            <a href="../index.html">
-                <img style="width: 120%; height: 120%; border-radius: 1rem;" src = "../Images/Main/BioRain.png" alt="T">
-            </a>
-            <center>
-                <h1 class="text">BioRain Games</h1>
-            </center>
-        </div>
-    
-    </head>
-
-<body>
-    <center>
-        <h1>A Bug's Garden</h1>
-        <p style="font-size: 35px;">Made in 5 days for the Regenerate game jam</p>
-        <p style="font-size: 30px;">It's a city builder using plants as buildings and bugs as people. It has a happiness system that all your dicission will effect it. There is weather which will change season. Each season changes the art and will effect happiness and the chance that your plants light on fire</p>
-        <iframe frameborder="0" src="https://itch.io/embed/2127291?bg_color=258132&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=39c320" width="552" height="167"><a href="https://biorain-games.itch.io/plantopia">A Bug's Garden by BioRain Games</a></iframe>
-        
-        
-    </center>
-    <div class="column">
-        <img draggable="false" src="../Images/Main/ABG.png" alt="">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-image: url(../Images/Main/BackroundMain.png);
+        background-size: 100%;
+        background-repeat: repeat-y;
+      }
+      h1 {
+        text-align: center;
+        font-size: 64px;
+        color: aliceblue;
+      }
+      h2 {
+        text-align: center;
+        font-size: 32px;
+        color: aliceblue;
+      }
+      p {
+        text-align: center;
+        font-size: 32px;
+        color: lightgray;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+      }
+      .Scalable:hover {
+        transition: all 200ms ease-in;
+        display: inline-block;
+        transform: scale(1.1);
+        align-items: center;
+        padding: 50%;
+      }
+      .hoverable {
+        border-radius: 4rem;
+        width: 200px;
+        height: auto;
+      }
+      .hoverable:hover {
+        transition: all 200ms ease-in;
+        align-items: center;
+        transform: scale(1.1) translateY(-15px);
+      }
+      .Item {
+        align-content: center;
+        vertical-align: top;
+        align-self: center;
+        display: inline-block;
+        text-align: center;
+        width: 240px;
+      }
+      img {
+        padding: 20px;
+        border-radius: 2rem;
+      }
+      figcaption {
+        display: block;
+        color: aliceblue;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <title>A Bug's Garden</title>
+    <div class="container">
+      <a href="../index.html">
+        <img
+          style="padding: 10px"
+          class="Scalable"
+          src="../Images/Main/BioRain.png"
+          alt="T"
+        />
+      </a>
+      <h2 style="padding-left: 20px">BioRain Games</h2>
     </div>
-    
-</body>
 
+    <h1>A Bug's Garden</h1>
+
+    <center>
+      <iframe
+        frameborder="0"
+        src="https://itch.io/embed/2127291?linkback=true&amp;bg_color=258132&amp;fg_color=222222&amp;border_color=39c320"
+        width="552"
+        height="167"
+        ><a href="https://biorain-games.itch.io/plantopia"
+          >A Bug's Garden by BioRain Games</a
+        ></iframe
+      >
+    </center>
+  </body>
 </html>
