@@ -1,0 +1,63 @@
+body {
+  background-image: url(../Images/Main/BackroundMain.png);
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: aliceblue;
+}
+h2 {
+  text-align: center;
+  font-size: 32px;
+  color: aliceblue;
+}
+p {
+  text-align: center;
+  font-size: 32px;
+  color: lightgray;
+}
+.container {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.Scalable:hover {
+  transition: all 200ms ease-in;
+  display: inline-block;
+  transform: scale(1.1);
+  align-items: center;
+  padding: 50%;
+}
+.hoverable {
+  border-radius: 4rem;
+  width: 200px;
+  height: auto;
+}
+.hoverable:hover {
+  transition: all 200ms ease-in;
+  align-items: center;
+  transform: scale(1.1) translateY(-15px);
+}
+.Item {
+  align-content: center;
+  vertical-align: top;
+  align-self: center;
+  display: inline-block;
+  text-align: center;
+  width: 240px;
+}
+img {
+  align-items: center;
+  padding: 20px;
+  width: 70px;
+  height: auto;
+  border-radius: 2rem;
+}
+figcaption {
+  display: block;
+  color: aliceblue;
+}
