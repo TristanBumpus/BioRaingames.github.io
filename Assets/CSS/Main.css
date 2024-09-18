@@ -2,62 +2,93 @@ body {
   background-image: url(../Images/Main/BackroundMain.png);
   background-size: 100%;
   background-repeat: repeat-y;
+  margin: 0;
 }
+
+main {
+  margin-top: 13vw;
+}
+
+/*Title*/
 h1 {
   text-align: center;
   font-size: 64px;
   color: aliceblue;
 }
+/* h2 is top bar biorain Games */
 h2 {
-  text-align: center;
-  font-size: 32px;
+  display: inline-block;
+  text-align: left;
+  font-size: 4vw;
   color: aliceblue;
+  vertical-align: middle;
 }
+
+/*Game names on home page*/
+h3 {
+  text-align: center;
+  font-size: 16px;
+  color: aliceblue;
+  margin-left: 8vw;
+  width: 20vw;
+  word-wrap: break-word;
+}
+
 p {
   text-align: center;
   font-size: 32px;
   color: lightgray;
 }
-.container {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-}
-.Scalable:hover {
-  transition: all 200ms ease-in;
-  display: inline-block;
-  transform: scale(1.1);
-  align-items: center;
-  padding: 50%;
-}
-.hoverable {
-  border-radius: 4rem;
-  width: 200px;
-  height: auto;
-}
-.hoverable:hover {
-  transition: all 200ms ease-in;
-  align-items: center;
-  transform: scale(1.1) translateY(-15px);
-}
-.Item {
-  align-content: center;
-  vertical-align: top;
-  align-self: center;
-  display: inline-block;
-  text-align: center;
-  width: 240px;
-}
-img {
-  align-items: center;
-  padding: 20px;
-  width: 70px;
-  height: auto;
-  border-radius: 2rem;
-}
-figcaption {
+
+iframe {
   display: block;
-  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game_button img {
+  display: inline;
+  border-radius: 5vw;
+  width: 28vw;
+  margin-left: 4vw;
+  margin-top: 2vh;
+  float: left;
+  vertical-align: bottom;
+}
+
+.game_button img:hover {
+  transition: all 100ms ease-in;
+  transform: translateY(-5vh) scale(1.1);
+}
+
+.top_bar img {
+  display: inline-block;
+  width: 10vw;
+  border-radius: 100vw;
+  vertical-align: middle;
+  margin-left: 1vw;
+}
+
+.top_bar img:hover {
+  transform: scale(1.1);
+}
+
+.game_button {
+  display: inline-grid;
+  margin-top: 5vh;
+}
+
+.top_bar {
+  display: block;
+  position: fixed;
+  padding: 1vh 0;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+/*Scroll bar Chrome Opera Safari*/
+.scroll::-webkit-scrollbar {
+  display: none;
 }
