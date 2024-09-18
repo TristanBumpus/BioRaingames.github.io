@@ -20,8 +20,10 @@ h2 {
   display: inline-block;
   text-align: left;
   font-size: 4vw;
-  color: aliceblue;
+  color: rgb(0, 255, 0);
   vertical-align: middle;
+  padding: 0;
+  margin: 0 1vw;
 }
 
 /*Game names on home page*/
@@ -63,10 +65,12 @@ iframe {
 
 .top_bar img {
   display: inline-block;
-  width: 10vw;
-  border-radius: 100vw;
+  width: 4vw;
+  border-radius: 4vw;
   vertical-align: middle;
   margin-left: 1vw;
+  margin-top: 0;
+  border: rgb(0, 255, 0) solid 0.5vh;
 }
 
 .top_bar img:hover {
@@ -81,11 +85,11 @@ iframe {
 .top_bar {
   display: block;
   position: fixed;
-  padding: 1vh 0;
   top: 0;
   width: 100vw;
   z-index: 999;
-  background-color: rgba(0, 255, 0, 0.5);
+  padding: 1vw 0;
+  background-color: #001400;
 }
 
 /*Scroll bar Chrome Opera Safari*/
