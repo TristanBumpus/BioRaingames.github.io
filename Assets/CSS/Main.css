@@ -12,7 +12,8 @@
   --text_size_medium: 5vw;
   --text_size_small: 2vw;
 
-  --margin_main: 4vw;
+  --margin_main_w: 4vw;
+  --margin_main_h: 4vh;
   --margin_small_w: 1vw;
   --margin_small_h: 1vh;
 }
@@ -77,7 +78,7 @@ iframe {
   display: inline;
   border-radius: 5vw;
   width: 28vw;
-  margin-left: var(--margin_main);
+  margin-left: var(--margin_main_w);
   float: left;
   vertical-align: bottom;
 }
@@ -103,7 +104,7 @@ iframe {
 
 .game_button {
   display: inline-grid;
-  margin-top: 5vh;
+  margin-top: 8vh;
 }
 
 .top_bar {
@@ -119,4 +120,13 @@ iframe {
 /*Scroll bar Chrome Opera Safari*/
 .scroll::-webkit-scrollbar {
   display: none;
+}
+
+.game_list {
+  margin-top: 10vh;
+}
+
+.game_list h2 {
+  display: block;
+  text-align: center;
 }
