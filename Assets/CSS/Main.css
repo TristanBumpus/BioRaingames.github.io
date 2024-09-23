@@ -1,10 +1,12 @@
 @import url(./reset.css);
 
-/*Colors*/
+/*Colors and other stuff*/
 :root {
   --animation_time: 100ms;
 
   --green: rgb(0, 255, 0);
+  --dark_green: #001400;
+  --white: aliceblue;
 
   --text_size_large: 10vw;
   --text_size_medium: 5vw;
@@ -13,6 +15,10 @@
   --margin_main: 4vw;
   --margin_small_w: 1vw;
   --margin_small_h: 1vh;
+}
+
+* {
+  font-family: url(../Fonts/Helvetica.ttf);
 }
 
 body {
@@ -30,7 +36,7 @@ main {
 h1 {
   text-align: center;
   font-size: var(--text_size_large);
-  color: aliceblue;
+  color: var(--white);
 }
 /* h2 is top bar biorain Games */
 h2 {
@@ -47,7 +53,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: var(--text_size_small);
-  color: aliceblue;
+  color: var(--white);
   margin-left: 8vw;
   width: 20vw;
   word-wrap: break-word;
@@ -57,7 +63,7 @@ h3 {
 p {
   text-align: center;
   font-size: var(--text_size_small);
-  color: lightgray;
+  color: var(--white);
 }
 
 iframe {
@@ -107,7 +113,7 @@ iframe {
   width: 100vw;
   z-index: 999;
   padding: 1vw 0;
-  background-color: #001400;
+  background-color: var(--dark_green);
 }
 
 /*Scroll bar Chrome Opera Safari*/
