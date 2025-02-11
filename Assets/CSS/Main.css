@@ -68,12 +68,14 @@ p {
   color: var(--white);
   margin-left: var(--margin_main_w);
   margin-right: var(--margin_main_w);
+  margin-top: var(--margin_main_h);
 }
 
 iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5vh;
 }
 
 .game_button img {
@@ -118,6 +120,15 @@ iframe {
   z-index: 999;
   padding: 1vw 0;
   background-color: var(--dark_green);
+}
+
+.by {
+  display: inline-block;
+  text-align: center;
+  font-size: var(--text_size_small);
+  color: var(--white);
+  word-wrap: break-word;
+  margin-top: var(--margin_small_h);
 }
 
 /*Scroll bar Chrome Opera Safari*/
